@@ -1,0 +1,4 @@
+﻿  InsertionSortAnalysis.cpp
+c:\users\admin\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\insertionsortanalysis.cpp(27): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\admin\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\insertionsortanalysis.cpp(85): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  ConsoleApplication1.vcxproj -> C:\Users\Admin\Documents\Visual Studio 2015\Projects\ConsoleApplication1\Debug\Sorting_Analysis.exe

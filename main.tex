@@ -1,0 +1,51 @@
+
+\documentclass[a4paper]{article}
+
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{program}
+
+
+\title{Insertion Sort Analysis}
+\author{Samartha K V}
+
+\begin{document}
+\maketitle
+
+
+
+\section{Introduction}
+
+Insertion Sort Analysis experiment involves working with large data sets. We determine the order of growth with respect to the number of elements in the array. Insertion sort is a simple algorithm to arrange the elements of an array in a particular order, \textbf{descending} or \textbf{ascending}. Though this algorithm is simple to implement, its performance is categorised by its \textbf{asymptotic complexity}, where we believe that for small data sets, the algorithm supersedes the performance of some other sorting algorithms. In my report, I shall analyse the\textbf{ best case, worst case and average case performance}, and compare the function with the bounding functions. I will find the constants $c_{1}$ and $c_{2}$, along with $n_{0}$, for each case and explain how I arrived at them. To work with various data sets, I create them myself. To experiment, I run the sorting algorithm on the best, worst and average cases, and analyse the running time for the insertion sort procedure solely.
+
+\section{Components of the system }
+
+\subsection{Data sets}
+
+Data sets are at the heart of the experiment, as their size and properties inturn determine the order of growth. In my experiment, I'll be using three sets of data representing the best, worst and average case. Using these we can easily investigate the upper and lower bound functions. For the best case data set, I use a nearly sorted array. For the worst case, I generate a array sorted in decreasing order. The Best case should run in $\Theta$(n) wheras, the Worst and Average cases run in $\Theta$ ($n^{2}$). 
+\subsection{Insertion Sort Algorithm}
+
+I make use of the zero based array algorithm for insertion sort, as shown below
+
+\begin{program}
+\mbox{Insertion Sort}
+\BEGIN \\ %
+  \FOR i \gets 1 \TO \textit{A.length}  \DO
+     j \gets 1
+\WHILE j>0 \ and \ A [j-1]>A[j]
+swap \ A[j] \ and \ A[j-1]
+        j \gets j - 1
+        \END
+\END
+\end{program}
+
+This algorithm has Best case in $\Theta$(n), the Worst and Average cases run in $\Theta$ ($n^{2}$). 
+
+\subsection{Microsoft Visual Studio}
+
+
+
+\end{document}
